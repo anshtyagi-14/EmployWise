@@ -98,26 +98,8 @@ DELETE	/api/users/:id	Delete a user
 
 ⸻
 
-📸 Screenshots
-
-User List Page
-
-Edit User Page
-
-
-⸻
 
 🤝 Contributing
 
 Feel free to fork this repo and submit a Pull Request if you have improvements! 🎉
 
-⸻
-
-📜 License
-
-This project is licensed under the MIT License.
-
-⸻
-
-🔹 Happy Coding! 💻🚀
-Let me know if you need any modifications! 😊
