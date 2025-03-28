@@ -3,6 +3,8 @@ import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./style.css";
 
+const navigate = useNavigate();
+
 const UserList = () => {
   const [users, setUsers] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -26,7 +28,7 @@ const UserList = () => {
 
       setUsers(updatedUsers);
     });
-  }, [location.state]);
+  }, [location.state,navigate]);
 
   const handleDelete = async (id) => {
     try {
