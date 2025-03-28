@@ -1,6 +1,4 @@
-Here’s a well-structured and properly formatted README.md with a clickable deployed link and organized project structure:
 
-⸻
 
 EmployWise - React User Management System
 
