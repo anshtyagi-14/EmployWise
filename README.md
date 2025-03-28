@@ -4,9 +4,9 @@ Here’s a well-structured and properly formatted README.md with a clickable dep
 
 EmployWise - React User Management System
 
-🚀 Live Demo
+## 🚀 Live Demo 
 
-🔗 EmployWise is Live Here!
+🔗 [EmployWise is Live Here!](https://employwise-hgpf.onrender.com/)
 
 ⸻
 
@@ -55,15 +55,9 @@ npm start
 
 🔑 Login Credentials
 
-Admin Login
+📧 Email: eve.holt@reqres.in
+🔑 Password: cityslicka
 
-📧 Email: admin@example.com
-🔑 Password: admin123
-
-User Login
-
-📧 Email: user@example.com
-🔑 Password: user123
 
 📝 (Use these credentials to log in to the system.)
 
