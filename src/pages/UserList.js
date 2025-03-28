@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./style.css";
 
-const navigate = useNavigate();
+
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
