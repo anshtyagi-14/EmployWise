@@ -1,0 +1,125 @@
+
+body {
+font-family: "Poppins", sans-serif;
+background-color: #f4f6f9;
+color: #333;
+margin: 0;
+padding: 0;
+}
+  
+
+.login-container {
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+  
+.login-card {
+width: 400px;
+padding: 30px;
+background: white;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+animation: fadeInUp 0.5s ease-in-out;
+}
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #007bff}
+  .form-control {
+    height: 45px;
+    font-size: 16px;
+    border-radius: 5px;}
+  .btn-primary {
+    background: #007bff;
+    border: none;
+    height: 45px;
+    font-size: 16px;
+    transition: all 0.3s ease;}
+  .btn-primary:hover {
+    background: #0056b3;
+    transform: scale(1.05);}
+  
+.table-container {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 900px;}
+  
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+  
+.table th {
+    background: #007bff;
+    color: white;
+}
+  
+.table td {
+    vertical-align: middle;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    width: 50px;
+    height: 50px;
+}
+
+.edit-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+  
+.edit-card {
+    width: 450px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeInUp 0.5s ease-in-out;
+}
+  
+.edit-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.btn-warning {
+    background: #ffc107;
+    color: white;
+    transition: all 0.3s ease;
+}
+  
+.btn-warning:hover {
+    background: #e0a800;
+    transform: scale(1.05);
+}
+  
+.btn-danger {
+    background: #dc3545;
+    transition: all 0.3s ease;
+}
+  
+.btn-danger:hover {
+    background: #c82333;
+    transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
