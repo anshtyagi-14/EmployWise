@@ -16,6 +16,7 @@ const handleLogin = async (e) => {
         email: "eve.holt@reqres.in",
         password: "cityslicka",
       });
+      console.log(email, password);
       localStorage.setItem("token", response.data.token);
       navigate("/users");
     } catch (err) {
